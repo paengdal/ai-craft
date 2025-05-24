@@ -1,50 +1,50 @@
 [
   {
-    "title": "샴 로데르 - 지속되는 향기",
-    "period": "제작기간 2일",
-    "youtubeUrl": "https://www.youtube.com/watch?v=roder1",
-    "thumbnail": "/images/lion.png",
-    "review": "인터뷰만 했는데 이렇게 멋진 영상이 나왔어요!",
+    "title": "샵 로데르 - 지속되는 향기",
+    "period": "30초, 제작기간 2일",
+    "youtubeUrl": "https://www.youtube.com/watch?v=sIO4hHijIt4",
+    "thumbnail": "/images/ai-craft.png",
+    "review": "\"와..저는 진짜 드린 것도 없는데 이렇게 나오는게 신기하네요.위에 있다시피 인터뷰만 했는데 ㅋㅋ 전문가는 전문가다 싶습니다.\"",
     "customerProvided": true
   },
   {
     "title": "FAUGET 에센셜 크림",
-    "period": "제작기간 3일",
-    "youtubeUrl": "https://www.youtube.com/watch?v=fauget",
+    "period": "30초, 제작기간 3일",
+    "youtubeUrl": "https://www.youtube.com/watch?v=sIO4hHijIt4",
     "thumbnail": "/images/lion.png",
-    "review": "제품 사진만 보냈는데 고급스러운 영상으로 탄생했어요.",
+    "review": "\"처음엔 반신반의했는데, 결과물보고 완전 만족했습니다. 인터뷰 작가님의 전문성이 느껴졌고 무엇보다 제 입장에서 고민해준다는 느낌을 받았어요\"",
     "customerProvided": true
   },
   {
-    "title": "샴 로데르 - 로데르는 과학",
-    "period": "제작기간 2일",
-    "youtubeUrl": "https://www.youtube.com/watch?v=roder2",
-    "thumbnail": "/images/lion.png",
-    "review": "전문가 인터뷰만으로 이렇게 멋질 수 있나요?",
+    "title": "샵 로데르 - 로데르는 과학",
+    "period": "30초, 제작기간 2일",
+    "youtubeUrl": "https://www.youtube.com/watch?v=sIO4hHijIt4",
+    "thumbnail": "/images/tea.png",
+    "review": "\"로데르의 과학적 접근이 이렇게 멋진 영상으로 표현되다니!\"",
     "customerProvided": false
   },
   {
     "title": "본햄헬스케어",
-    "period": "제작기간 3일",
-    "youtubeUrl": "https://www.youtube.com/watch?v=bonham",
-    "thumbnail": "/images/lion.png",
-    "review": "짧은 시간 안에 이 정도 퀄리티는 놀라워요.",
+    "period": "30초, 제작기간 3일",
+    "youtubeUrl": "https://www.youtube.com/watch?v=sIO4hHijIt4",
+    "thumbnail": "/images/car.png",
+    "review": "\"본햄헬스케어의 혁신적인 기술을 이렇게 잘 담아냈어요!\"",
     "customerProvided": true
   },
   {
     "title": "프린트베이커리",
-    "period": "제작기간 3일",
-    "youtubeUrl": "https://www.youtube.com/watch?v=printbakery",
-    "thumbnail": "/images/lion.png",
-    "review": "전시장 소개 영상이 이렇게 감각적일 수 있나요?",
+    "period": "30초, 제작기간 3일",
+    "youtubeUrl": "https://www.youtube.com/watch?v=sIO4hHijIt4",
+    "thumbnail": "/images/cat.png",
+    "review": "\"프린트베이커리의 따뜻한 감성이 잘 전달된 영상이에요!\"",
     "customerProvided": false
   },
   {
     "title": "SiDO 전기주전자",
-    "period": "제작기간 2일",
-    "youtubeUrl": "https://www.youtube.com/watch?v=sido",
-    "thumbnail": "/images/lion.png",
-    "review": "깔끔하고 고급스러운 이미지가 인상적이었어요.",
+    "period": "30초, 제작기간 2일",
+    "youtubeUrl": "https://www.youtube.com/watch?v=sIO4hHijIt4",
+    "thumbnail": "/images/burger.png",
+    "review": "\"SiDO의 전기주전자가 이렇게 멋진 영상으로 탄생했어요!\"",
     "customerProvided": true
   }
 ]

@@ -1,3 +1,4 @@
+import BenefitsSection from '@/comonents/BenefitSection';
 import PortfolioSection from '@/comonents/PortfolioSection';
 
 // src/app/page.tsx
@@ -6,9 +7,9 @@ export default function HomePage() {
     <>
       {/* <HeaderSection /> */}
       <PortfolioSection />
-      {/* <BenefitSection />
-      <QnASection />
-      <FooterSection /> */}
+      <BenefitsSection />
+      {/* <QnASection /> */}
+      {/* <FooterSection /> */}
     </>
   );
 }
