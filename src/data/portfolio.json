@@ -1,0 +1,50 @@
+[
+  {
+    "title": "샴 로데르 - 지속되는 향기",
+    "period": "제작기간 2일",
+    "youtubeUrl": "https://www.youtube.com/watch?v=roder1",
+    "thumbnail": "/images/lion.png",
+    "review": "인터뷰만 했는데 이렇게 멋진 영상이 나왔어요!",
+    "customerProvided": true
+  },
+  {
+    "title": "FAUGET 에센셜 크림",
+    "period": "제작기간 3일",
+    "youtubeUrl": "https://www.youtube.com/watch?v=fauget",
+    "thumbnail": "/images/lion.png",
+    "review": "제품 사진만 보냈는데 고급스러운 영상으로 탄생했어요.",
+    "customerProvided": true
+  },
+  {
+    "title": "샴 로데르 - 로데르는 과학",
+    "period": "제작기간 2일",
+    "youtubeUrl": "https://www.youtube.com/watch?v=roder2",
+    "thumbnail": "/images/lion.png",
+    "review": "전문가 인터뷰만으로 이렇게 멋질 수 있나요?",
+    "customerProvided": false
+  },
+  {
+    "title": "본햄헬스케어",
+    "period": "제작기간 3일",
+    "youtubeUrl": "https://www.youtube.com/watch?v=bonham",
+    "thumbnail": "/images/lion.png",
+    "review": "짧은 시간 안에 이 정도 퀄리티는 놀라워요.",
+    "customerProvided": true
+  },
+  {
+    "title": "프린트베이커리",
+    "period": "제작기간 3일",
+    "youtubeUrl": "https://www.youtube.com/watch?v=printbakery",
+    "thumbnail": "/images/lion.png",
+    "review": "전시장 소개 영상이 이렇게 감각적일 수 있나요?",
+    "customerProvided": false
+  },
+  {
+    "title": "SiDO 전기주전자",
+    "period": "제작기간 2일",
+    "youtubeUrl": "https://www.youtube.com/watch?v=sido",
+    "thumbnail": "/images/lion.png",
+    "review": "깔끔하고 고급스러운 이미지가 인상적이었어요.",
+    "customerProvided": true
+  }
+]
