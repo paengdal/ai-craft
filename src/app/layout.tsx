@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'AI CRAFT - AI 영상 제작 서비스',
-  description: '설명',
+  title: 'AI CRAFT - AI 영상 제작',
+  description: '소상공인을 위한 50만원 3일 30초 고퀄 영상 제작 서비스',
   icons: {
     icon: '/favicon.ico',
   },
