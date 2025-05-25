@@ -39,7 +39,7 @@ export default function PortfolioSection() {
                 {item.period}
               </p>
             </div>
-            <div className="bg-gray-100 px-7 py-5 mt-3 rounded-lg">
+            <div className="bg-gray-100 h-[7.2rem] px-7 py-5 mt-3 rounded-lg flex justify-start">
               <p className=" text-gray-600 tracking-tight whitespace-pre-line line-clamp-3">
                 {item.review}
               </p>
