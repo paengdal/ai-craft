@@ -4,7 +4,7 @@ import BenefitCard from './BenefitCard';
 
 export default function BenefitSection() {
   return (
-    <section className="bg-gray-50 px-6 py-16 space-y-10">
+    <section className="px-6 py-20 space-y-10">
       <BenefitCard
         title="“저렴한 가격에 빠른 속도로 제작까지?”"
         description={
@@ -16,7 +16,7 @@ export default function BenefitSection() {
             합니다.
           </>
         }
-        imageSrc="/images/card01.png"
+        imageSrc="/images/card01-1.png"
         imageAlt="영상 제작 이미지"
       />
 
@@ -30,7 +30,7 @@ export default function BenefitSection() {
             <strong>인터뷰</strong>만으로 끝!!
           </>
         }
-        imageSrc="/images/card02.png"
+        imageSrc="/images/card02-1.png"
         imageAlt="준비 걱정 없는 서비스"
         reverse
       />
@@ -45,7 +45,7 @@ export default function BenefitSection() {
             믿고 맡겨주시면 <strong>품질로 보답</strong>하겠습니다.
           </>
         }
-        imageSrc="/images/card03.png"
+        imageSrc="/images/card03-1.png"
         imageAlt="신뢰 기반 서비스"
       />
     </section>

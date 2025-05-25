@@ -6,7 +6,7 @@ import portfolioData from '@/data/portfolio.json';
 
 export default function PortfolioSection() {
   return (
-    <section id="portfolio" className="px-6 py-12 bg-gray-50">
+    <section id="portfolio" className="px-6 py-12">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-20">
         {portfolioData.map((item, index) => (
           <div key={index}>
@@ -23,7 +23,7 @@ export default function PortfolioSection() {
                     fill
                     className="object-cover"
                   />
-                  <div className="absolute inset-0  flex items-center justify-center text-white text-xl font-semibold">
+                  <div className="absolute inset-0 flex items-center justify-center text-white text-xl font-semibold hover:bg-black/25">
                     <div className="rounded-full w-12 h-12 bg-black flex justify-center items-center opacity-30">
                       ▶
                     </div>
@@ -32,11 +32,17 @@ export default function PortfolioSection() {
               </Link>
             </div>
             <div className="p-3 space-y-1 mt-3">
-              <h3 className="text-2xl font-bold">{item.title}</h3>
-              <p className="text-lg font-semibold">{item.period}</p>
+              <h3 className="text-2xl font-bold tracking-tight">
+                {item.title}
+              </h3>
+              <p className="text-lg font-semibold tracking-tight">
+                {item.period}
+              </p>
             </div>
-            <div className="bg-gray-100 px-7 py-5 rounded-lg">
-              <p className=" text-gray-600">{item.review}</p>
+            <div className="bg-gray-100 px-7 py-5 mt-3 rounded-lg">
+              <p className=" text-gray-600 tracking-tight whitespace-pre-line line-clamp-3">
+                {item.review}
+              </p>
             </div>
             {/* <Link
               href={item.youtubeUrl}
@@ -47,6 +53,17 @@ export default function PortfolioSection() {
             </Link> */}
           </div>
         ))}
+      </div>
+      {/* CTA 버튼 */}
+      <div className="flex justify-center mt-14">
+        <Link
+          href="https://www.youtube.com/@user-justgood"
+          target="_blank"
+          className="inline-block mt-4 text-xl font-light px-16 py-5 rounded-full
+      hover:bg-gray-100 transition border border-gray-500"
+        >
+          갤러리 전체 보기
+        </Link>
       </div>
     </section>
   );

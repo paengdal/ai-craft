@@ -1,15 +1,18 @@
 import BenefitsSection from '@/comonents/BenefitSection';
+import FooterSection from '@/comonents/FooterSection';
+import HeaderSection from '@/comonents/HeaderSection';
 import PortfolioSection from '@/comonents/PortfolioSection';
 
-// src/app/page.tsx
 export default function HomePage() {
   return (
-    <>
-      {/* <HeaderSection /> */}
-      <PortfolioSection />
-      <BenefitsSection />
-      {/* <QnASection /> */}
-      {/* <FooterSection /> */}
-    </>
+    <div className="flex justify-center">
+      <div className="min-h-screen w-[1200px]">
+        <HeaderSection />
+        <PortfolioSection />
+        <BenefitsSection />
+        {/* <QnASection /> */}
+        <FooterSection />
+      </div>
+    </div>
   );
 }

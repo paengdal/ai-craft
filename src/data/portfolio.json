@@ -4,7 +4,7 @@
     "period": "30초, 제작기간 2일",
     "youtubeUrl": "https://www.youtube.com/watch?v=sIO4hHijIt4",
     "thumbnail": "/images/ai-craft.png",
-    "review": "\"와..저는 진짜 드린 것도 없는데 이렇게 나오는게 신기하네요.위에 있다시피 인터뷰만 했는데 ㅋㅋ 전문가는 전문가다 싶습니다.\"",
+    "review": "와..저는 진짜 드린 것도 없는데 이렇게 나오는게 신기하네요. \n위에 있다시피 인터뷰만 했는데 ㅋㅋ 전문가는 전문가다 싶습니다.",
     "customerProvided": true
   },
   {
@@ -12,7 +12,7 @@
     "period": "30초, 제작기간 3일",
     "youtubeUrl": "https://www.youtube.com/watch?v=sIO4hHijIt4",
     "thumbnail": "/images/lion.png",
-    "review": "\"처음엔 반신반의했는데, 결과물보고 완전 만족했습니다. 인터뷰 작가님의 전문성이 느껴졌고 무엇보다 제 입장에서 고민해준다는 느낌을 받았어요\"",
+    "review": "처음엔 반신반의했는데, 결과물보고 완전 만족했습니다. 인터뷰 작가님의 전문성이 느껴졌고 무엇보다 제 입장에서 고민해준다는 느낌을 받았어요",
     "customerProvided": true
   },
   {
@@ -20,7 +20,7 @@
     "period": "30초, 제작기간 2일",
     "youtubeUrl": "https://www.youtube.com/watch?v=sIO4hHijIt4",
     "thumbnail": "/images/tea.png",
-    "review": "\"로데르의 과학적 접근이 이렇게 멋진 영상으로 표현되다니!\"",
+    "review": "로데르의 과학적 접근이 이렇게 멋진 영상으로 표현되다니!",
     "customerProvided": false
   },
   {
@@ -28,7 +28,7 @@
     "period": "30초, 제작기간 3일",
     "youtubeUrl": "https://www.youtube.com/watch?v=sIO4hHijIt4",
     "thumbnail": "/images/car.png",
-    "review": "\"본햄헬스케어의 혁신적인 기술을 이렇게 잘 담아냈어요!\"",
+    "review": "본햄헬스케어의 혁신적인 기술을 이렇게 잘 담아냈어요!",
     "customerProvided": true
   },
   {
@@ -36,7 +36,7 @@
     "period": "30초, 제작기간 3일",
     "youtubeUrl": "https://www.youtube.com/watch?v=sIO4hHijIt4",
     "thumbnail": "/images/cat.png",
-    "review": "\"프린트베이커리의 따뜻한 감성이 잘 전달된 영상이에요!\"",
+    "review": "프린트베이커리의 따뜻한 감성이 잘 전달된 영상이에요!",
     "customerProvided": false
   },
   {
@@ -44,7 +44,7 @@
     "period": "30초, 제작기간 2일",
     "youtubeUrl": "https://www.youtube.com/watch?v=sIO4hHijIt4",
     "thumbnail": "/images/burger.png",
-    "review": "\"SiDO의 전기주전자가 이렇게 멋진 영상으로 탄생했어요!\"",
+    "review": "SiDO의 전기주전자가 이렇게 멋진 영상으로 탄생했어요!",
     "customerProvided": true
   }
 ]

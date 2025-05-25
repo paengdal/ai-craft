@@ -1,4 +1,5 @@
 import type { Config } from 'tailwindcss';
+import lineClamp from '@tailwindcss/line-clamp';
 
 const config: Config = {
   content: [
@@ -16,9 +17,13 @@ const config: Config = {
     'lg:grid-cols-3',
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['Pretendard', 'ui-sans-serif', 'system-ui'],
+      },
+    },
   },
-  plugins: [],
+  plugins: [lineClamp],
 };
 
 export default config;
