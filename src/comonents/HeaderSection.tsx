@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function HeaderSection() {
   return (
-    <section className="bg-white px-6 py-24 text-center">
+    <section className="bg-white px-6 py-16 text-center">
       <div className="max-w-3xl mx-auto space-y-6">
         {/* 헤드라인 */}
         <div className="mb-10">
