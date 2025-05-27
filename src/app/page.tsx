@@ -10,7 +10,6 @@ export default function HomePage() {
         <HeaderSection />
         <PortfolioSection />
         <BenefitsSection />
-        {/* <QnASection /> */}
         <FooterSection />
       </div>
     </div>
