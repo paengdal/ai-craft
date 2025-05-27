@@ -32,15 +32,13 @@ export default function PortfolioSection() {
               </Link>
             </div>
             <div className="p-3 space-y-1 mt-3">
-              <h3 className="text-2xl font-bold tracking-tight">
+              <h3 className="text-2xl font-semibold tracking-tight">
                 {item.title}
               </h3>
-              <p className="text-lg font-semibold tracking-tight">
-                {item.period}
-              </p>
+              <p className="tracking-tight">{item.period}</p>
             </div>
             <div className="bg-gray-100 h-[7.2rem] px-7 py-5 mt-3 rounded-lg flex justify-start">
-              <p className=" text-gray-600 tracking-tight whitespace-pre-line line-clamp-3">
+              <p className=" text-gray-500 tracking-tight whitespace-pre-line line-clamp-3">
                 {item.review}
               </p>
             </div>
