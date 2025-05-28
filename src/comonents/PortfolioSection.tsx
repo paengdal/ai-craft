@@ -1,14 +1,24 @@
 'use client';
 
+import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import portfolioData from '@/data/portfolio.json';
 
+const PAGE_SIZE = 6;
+
 export default function PortfolioSection() {
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
+  const totalCount = portfolioData.length;
+
+  const handleLoadMore = () => {
+    setVisibleCount((prev) => Math.min(prev + PAGE_SIZE, totalCount));
+  };
+
   return (
     <section id="portfolio" className="px-6 py-12">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-20">
-        {portfolioData.map((item, index) => (
+        {portfolioData.slice(0, visibleCount).map((item, index) => (
           <div key={index}>
             <div className="bg-white rounded-2xl overflow-hidden hover:shadow-lg transition-shadow">
               <Link
@@ -38,30 +48,23 @@ export default function PortfolioSection() {
               <p className="tracking-tight">{item.period}</p>
             </div>
             <div className="bg-gray-100 h-[7.2rem] px-7 py-5 mt-3 rounded-lg flex justify-start">
-              <p className=" text-gray-500 tracking-tight whitespace-pre-line line-clamp-3">
+              <p className="text-gray-500 tracking-tight whitespace-pre-line line-clamp-3">
                 {item.review}
               </p>
             </div>
-            {/* <Link
-              href={item.youtubeUrl}
-              target="_blank"
-              className="text-sm text-indigo-600 underline"
-            >
-              자세히 보기
-            </Link> */}
           </div>
         ))}
       </div>
-      {/* CTA 버튼 */}
+
+      {/* 더 보기 버튼 */}
       <div className="flex justify-center mt-14">
-        <Link
-          href="https://www.youtube.com/@user-justgood"
-          target="_blank"
-          className="inline-block mt-4 text-xl font-light px-16 py-5 rounded-full
-      hover:bg-gray-100 transition border border-gray-500"
+        <button
+          onClick={handleLoadMore}
+          disabled={visibleCount >= totalCount}
+          className="inline-block text-xl font-light px-16 py-5 rounded-full hover:bg-gray-100 transition border border-gray-500 disabled:opacity-50 disabled:cursor-default"
         >
-          갤러리 전체 보기
-        </Link>
+          더 보기 ({visibleCount}/{totalCount})
+        </button>
       </div>
     </section>
   );
